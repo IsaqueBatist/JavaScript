@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Roboto;
+  src: url('fonts/ROBOTO-MEDIUM.TTF');
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto'
+}
+
+:root {
+  --cor1: #BF6860;
+  --cor2: #04ADBF;
+  --cor3: #F29B88;
+  --cor4: #0D0D0D;
+}
+
+body {
+  background-image: url('imagens/Dawn.jpg');
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 220px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px var(--cor1);
+}
+.maintitle{
+text-align: center;
+color: white;
+font-size: 100px;
+margin: auto;
+margin-top: 20px;
+}
+#hours {
+  text-align: center;
+  font-size: 30px;
+}
+.icon{
+  text-align: center;
+  
+}
+#stats {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
+}

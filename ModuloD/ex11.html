@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nacionalidade</title>
+</head>
+<body>
+  <h1>Você é brasileiro?</h1>
+  <label for="ipais">Qual o seu pais de nascimento?</label>
+  <input type="text" name="pais" id="ipais">
+  <button onclick="verific()">Verificar</button>
+  <div id="situation">
+
+
+  </div>
+  <script>
+    pais = String(document.getElementById('ipais').value)
+
+    document.write(pais1)
+    situation = document.getElementById('situation')
+    function verific(){
+      if (pais == "Brasil"){
+        situation.innerHtml = '<p>Brasileiro</p>'
+      } else {
+        situation.innerHtml = '<p>Estrangeiro</p>'
+      }
+    }
+
+  </script>
+</body>
+</html>
